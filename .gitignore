@@ -2,3 +2,5 @@
 *.a
 *~
 mount_gridfs
+.idea
+Makefile
