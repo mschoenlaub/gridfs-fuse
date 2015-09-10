@@ -19,8 +19,7 @@
 #include <pwd.h>
 #include <grp.h>
 
-#include <mongo/bson/bson.h>
-#include <mongo/client/gridfs.h>
+#include <mongocxx/client.hpp>
 
 #include "operations.h"
 #include "utils.h"

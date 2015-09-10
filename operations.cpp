@@ -20,9 +20,7 @@
 #include "local_gridfile.h"
 #include <memory>
 
-#include <mongo/client/connpool.h>
-#include <mongo/client/dbclient.h>
-#include <mongo/util/net/hostandport.h>
+#include <mongocxx/client.hpp>
 
 std::map<std::string, LocalGridFile::ptr> open_files;
 
